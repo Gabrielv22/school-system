@@ -8,7 +8,6 @@ Technologies used:
  - **PostgreSQL**
  - **Spring Data**
  - **Hibernate**
- - **Lombok**
 
 ## Authentication
 Security layer - **JSON Web Token** used as authentication point.
