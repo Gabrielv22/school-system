@@ -1,4 +1,4 @@
-# School System REST-API
+# School System RESTful API
 
 
  **Monolith** school grading system application for managing students/courses/scores. 
