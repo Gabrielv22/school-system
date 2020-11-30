@@ -188,6 +188,7 @@ public class UserServiceImpl implements UserService {
     }
 
     private Authentication authenticate(String username, String password) {
+        //passing Principal + credentials
         return authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
     }
 
