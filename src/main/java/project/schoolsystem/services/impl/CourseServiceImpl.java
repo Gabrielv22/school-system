@@ -71,6 +71,7 @@ public class CourseServiceImpl implements CourseService {
 
     @Override
     public void createCourse(CourseDto dto) {
+        logger.info("Creating course: {}", dto.getName());
         courseRepository.save(modelMapper.map(dto, Course.class));
     }
 
