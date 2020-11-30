@@ -105,7 +105,7 @@ public class CourseServiceImpl implements CourseService {
         if (user.isPresent() && course.isPresent()) {
             User usr = user.get();
             Course crs = course.get();
-            String studentRole = roleService.rgetRoles().stream().filter(roleDto ->
+            String studentRole = roleService.getRoles().stream().filter(roleDto ->
                 roleDto.getName().equals("ROLE_TEACHER")).map(RoleDto::getName).findFirst().orElseThrow(()->
                     new EntityNotFoundException("Teacher role not found"));
 
