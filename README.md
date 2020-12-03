@@ -8,6 +8,9 @@ Technologies used:
  - **PostgreSQL**
  - **Spring Data**
  - **Hibernate**
+ - **JUnit5**
+ - **Mockito**
+ - **Docker**
 
 ## Authentication
 Security layer - **JSON Web Token** used as authentication point.
