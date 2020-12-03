@@ -11,6 +11,7 @@ Technologies used:
  - **JUnit5**
  - **Mockito**
  - **Docker**
+ - **Maven**
 
 ## Authentication
 Security layer - **JSON Web Token** used as authentication point.
